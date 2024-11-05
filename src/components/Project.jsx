@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { IoMdClose } from 'react-icons/io';
-export default function () {
+export default function Project() {
   const [projects, setProjects] = useState([
     {
       id: 1,
@@ -117,9 +117,6 @@ export default function () {
       </>
     );
   };
-
-  {
-  }
   return (
     <>
       <div className="w-full mt-9 flex flex-col items-center text-center ">
